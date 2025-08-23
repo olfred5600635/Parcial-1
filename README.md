@@ -86,3 +86,5 @@ Mostrando que el algoritmo en algunos casos no podia hacer una segmetacion preci
 ## Concluciones:
 En conclucion se podria decir que los resultados estadísticos demuestran que el método de K-means en RGB es un buen metodo  en la mayoría de los casos, logrando un rendimiento muy bueno  en promedio. Sin embargo, la desviación estándar moderada advierte que su eficacia no es uniforme en todas las imágenes, lo que sugiere la necesidad de ajustes adicionales (ejemplo: K=3, preprocesamiento de contraste) para mejorar la estabilidad del algoritmo en escenarios más complejos.
 
+link del drive 
+https://colab.research.google.com/drive/1vCZRExY1MnwGJOemt7PK6SIYSndsfPRO?usp=sharing
