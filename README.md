@@ -49,4 +49,40 @@ Nota: Durante el desarrollo del código se empleó la ayuda de una inteligencia 
 
 ## Análisis de resultados:
 
+Tras aplicar el algoritmo de segmentación con K-means (K=2 en RGB) a las 35 imágenes dermatoscópicas, se obtuvieron los siguientes indicadores estadísticos:
+
+Promedio del F1 Score: 0.8398
+
+Desviación estándar: 0.1298
+
+*Interpretación del promedio*
+
+El F1 Score promedio de 0.8398 indica que el algoritmo tuvo un desempeño bueno, ya que se acerca al valor ideal que seria  1.0. Esto significa que, en la mayoría de los casos, la segmentación logró un equilibrio aceptable entre la precisión (qué tan pocos falsos positivos se detectaron) y el recall (qué tanto de la lesión real se logró identificar).
+
+,el método K-means fue capaz de distinguir  la lesión del fondo en la mayor parte de las imágenes, cumpliendo el objetivo principal.
+
+*Interpretación de la desviación estándar*
+
+El valor de desviación estándar 0.1298 muestra el grado de variabilidad de los resultados con respecto al promedio.
+
+Una desviación estándar baja (cercana a 0) significaría que casi todas las imágenes tuvieron resultados muy similares, con un rendimiento constante.
+
+En este caso, el valor moderado (~0.13) indica que hay diferencias notables entre unas imágenes y otras:
+
+Algunas alcanzaron F1 superiores a 0.90 (segmentación muy buena).
+
+Otras bajaron hasta valores cercanos a 0.60 (segmentación deficiente).
+
+Mostrando que el algoritmo en algunos casos no podia hacer una segmetacion precisa como las mostradas en la segmetacion ideal.
+
+*Causas de la variabilidad*
+
+-Alta calidad de segmentación (F1 > 0.85): en imágenes con buen contraste entre la lesión y la piel.
+
+-Calidad aceptable (0.65 < F1 < 0.85): ocurrió cuando el color del fondo tenía tonalidades similares a las de la lesión o existían sombras.
+
+-Baja calidad (F1 < 0.65): se presentó en casos con bordes poco definidos o lesiones claras, donde el algoritmo confundió parte de la piel con la región de interés.
+
+## Concluciones:
+En conclucion se podria decir que los resultados estadísticos demuestran que el método de K-means en RGB es un buen metodo  en la mayoría de los casos, logrando un rendimiento muy bueno  en promedio. Sin embargo, la desviación estándar moderada advierte que su eficacia no es uniforme en todas las imágenes, lo que sugiere la necesidad de ajustes adicionales (ejemplo: K=3, preprocesamiento de contraste) para mejorar la estabilidad del algoritmo en escenarios más complejos.
 
