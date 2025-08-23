@@ -1,5 +1,8 @@
 # Parcial-1
 Parcial imagenes
+## integrantes
+Diego Lara 
+Olfred Carvajal
 ## objetivos:
 
 *Implementar un algoritmo de segmentación automática de lesiones cutáneas en imágenes dermatoscópicas.
