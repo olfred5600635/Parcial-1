@@ -1,9 +1,9 @@
 # Parcial-1
 Parcial imagenes
-## integrantes
-Diego Lara 
+## Integrantes
+Diego Jimenez
 Olfred Carvajal
-## objetivos:
+## Objetivos:
 
 *Implementar un algoritmo de segmentación automática de lesiones cutáneas en imágenes dermatoscópicas.
 
@@ -15,7 +15,7 @@ Olfred Carvajal
 
 ## Procedimiento de creación del código:
 
-El primer paso fue la eleccion del metodo para la segmetacion siendo este (Clustering por K-means) ya que nos ayuda a :
+El primer paso fue la eleccion del metodo para la segmetacion siendo este (Clustering por K-means) ya que :
 
 -Permite clasificar los píxeles en grupos de colores (clusters), lo cual es útil ya que las lesiones suelen tener tonalidades más oscuras respecto al fondo de piel.
 
