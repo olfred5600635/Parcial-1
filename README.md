@@ -55,13 +55,13 @@ Promedio del F1 Score: 0.8398
 
 Desviación estándar: 0.1298
 
-*Interpretación del promedio*
+## *Interpretación del promedio*
 
 El F1 Score promedio de 0.8398 indica que el algoritmo tuvo un desempeño bueno, ya que se acerca al valor ideal que seria  1.0. Esto significa que, en la mayoría de los casos, la segmentación logró un equilibrio aceptable entre la precisión (qué tan pocos falsos positivos se detectaron) y el recall (qué tanto de la lesión real se logró identificar).
 
 ,el método K-means fue capaz de distinguir  la lesión del fondo en la mayor parte de las imágenes, cumpliendo el objetivo principal.
 
-*Interpretación de la desviación estándar*
+## *Interpretación de la desviación estándar*
 
 El valor de desviación estándar 0.1298 muestra el grado de variabilidad de los resultados con respecto al promedio.
 
@@ -75,7 +75,7 @@ Otras bajaron hasta valores cercanos a 0.60 (segmentación deficiente).
 
 Mostrando que el algoritmo en algunos casos no podia hacer una segmetacion precisa como las mostradas en la segmetacion ideal.
 
-*Causas de la variabilidad*
+## *Causas de la variabilidad*
 
 -Alta calidad de segmentación (F1 > 0.85): en imágenes con buen contraste entre la lesión y la piel.
 
