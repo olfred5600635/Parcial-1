@@ -1,6 +1,7 @@
 # ======================================
 # Segmentación por Clustering (K-means en RGB)
 # ======================================
+# nota importante para subir las iamgenes y las segemtaciones debe subirse la carpeta comprimida osea iamgenes.zip y segemtacion ideal.zip
 
 import cv2
 import numpy as np
