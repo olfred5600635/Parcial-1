@@ -40,8 +40,8 @@ El desrollo del algoritmo se divide en 7 pasos:
 Nota: Durante el desarrollo del código se empleó la ayuda de una inteligencia artificial (ChatGPT) para estructurar y depurar el algoritmo, aunque las pruebas y adaptaciones finales se realizaron en Google Colab.
 
 ## Diagrama de Flujo:
-![](https://github.com/DAJO2/LAB2-/blob/main/DIEGOJIMENEZCONVOLUCION.png)
-[!imagen diagrama de flujo.png]
+![](https://github.com/olfred5600635/Parcial-1/blob/main/imagen%20diagrama%20de%20flujo.png)
+
 
 
 ## Análisis de resultados:
