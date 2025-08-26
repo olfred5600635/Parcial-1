@@ -41,7 +41,7 @@ Nota: Durante el desarrollo del código se empleó la ayuda de una inteligencia 
 
 ## Diagrama de Flujo:
 
-[![flujo-kmeans.png](https://i.postimg.cc/BnzK3M4p/flujo-kmeans.png)](https://postimg.cc/5Xw0q5HQ)
+[!imagen diagrama de flujo.png]
 
 
 ## Análisis de resultados:
